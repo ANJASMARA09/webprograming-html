@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contoh form</title>
+</head>
+
+<body>
+    <form action="" method="">
+        <table border="1">
+            <tr>
+                <th colspan="3">FORM INPUT DATA MAHASISWA</th>
+            </tr>
+            <TR>
+                <td width="120px"><label for="Nim">No. Induk Mahasiswa</label></td>
+                <td width="10px">:</td>
+                <td><input type="text" Name="Nim" placeholder="Masukan Nim..." /></td>
+            </TR>
+            <tr>
+                <td><label for="Nama">Nama Mahasiswa</label></td>
+                <td>:</td>
+                <td><input type="text" name="Nama" placeholder="Masukan Nama..." /></td>
+            </tr>
+            <tr>
+                <td><label for="Nama">Tempat / Tgl. Lahir</label></td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="Tempat" placeholder="Masukan Tempat..." />
+                    <input type="date" name="Tgl" placeholder="Masukan Tanggal..." />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="JK">Jenis Kelamin</label></td>
+                <td>:</td>
+                <td>
+                    <select name="JK">
+                        <option value="" selected>- Pilih ..</option>
+                        <option value="P">Pria</option>
+                        <option value="W">Wanita</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="JK">Status</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="Status" value="aktif" />
+                    <label for="JK">Aktif</label><br />
+                    <input type="radio" name="Status" value="Tidak" />
+                    <label for="JK">Tidak</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <input type="submit" value="simpan">
+                    <input type="reset" value="batal">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
